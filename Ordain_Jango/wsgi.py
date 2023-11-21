@@ -1,5 +1,5 @@
 """
-WSGI config for myRestJang project.
+WSGI config for Ordain_Jango project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myRestJang.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Ordain_Jango.settings')
 
 application = get_wsgi_application()

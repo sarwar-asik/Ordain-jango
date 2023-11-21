@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class EmployeeappConfig(AppConfig):
+class OrdainAppConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'EmployeeApp'
+    name = 'ordain_app'

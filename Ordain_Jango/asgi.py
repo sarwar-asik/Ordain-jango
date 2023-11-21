@@ -1,5 +1,5 @@
 """
-ASGI config for myRestJang project.
+ASGI config for Ordain_Jango project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myRestJang.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Ordain_Jango.settings')
 
 application = get_asgi_application()
