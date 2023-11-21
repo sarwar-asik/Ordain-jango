@@ -37,9 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest-framework',
     'corsheaders',
-    'EmployeeApp.apps.EmployeeappConfig'
+    'EmployeeApp.apps.EmployeeAppConfig',
+    'rest_framework'
 ]
 
 CORS_ORIGIN_ALLOW_ALL = True
@@ -81,10 +81,22 @@ WSGI_APPLICATION = 'myRestJang.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'myjango',
+        'USER': 'postgres',
+        'PASSWORD': '9933',
+        'HOST': '127.0.0.1',
+        'PORT': '5432'
     }
 }
+
+
+# 'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME':'localhost',
+#          'USER':'postgres',
+#          'PASSWORD':'9933',
+#          'HOST':'127.0.0.1',
+#          'PORT':'5432'
 
 
 # Password validation
